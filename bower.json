@@ -1,0 +1,26 @@
+{
+  "name": "profile",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "wayneaustin"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/WayneAustin/profile",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-touch": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "gulp": "~3.9.0",
+    "less": "~2.5.3"
+  }
+}
