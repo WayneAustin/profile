@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/WayneAustin/profile/issues"
   },
-  "homepage": "https://github.com/WayneAustin/profile#readme"
+  "homepage": "https://github.com/WayneAustin/profile#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-minify-css": "^1.2.1",
+    "main-bower-files": "^2.9.0"
+  }
 }
