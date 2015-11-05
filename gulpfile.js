@@ -15,7 +15,8 @@ gulp.task('less', function () {
 });
 
 gulp.task('libs', function () {
-  return gulp.src(plugins.mainBowerFiles().concat())
+  var bowerFiles = plugins.mainBowerFiles('**/*.js');
+  return gulp.src(bowerFiles)
     .pipe(plugins.filter('*.js'))
     .pipe(gulp.dest('libs/'));
 });

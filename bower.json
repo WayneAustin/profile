@@ -15,7 +15,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "dependencies": {
     "jquery": "~2.1.4",
     "angular": "~1.4.7",
     "angular-touch": "~1.4.7",
